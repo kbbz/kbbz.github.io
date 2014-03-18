@@ -437,6 +437,6 @@ footer {
   border: none;
 }
 
-#navigation-text {
+.bold-text {
   font-weight: bold;
 }
