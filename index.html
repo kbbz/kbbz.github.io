@@ -20,7 +20,7 @@
         <p class="header">A Facebook status likes predictor for EECS 349 at Northwestern University.</p>
         <a href="#motivation">Motivation</a></br>
         <a href="#solution">Solution</a></br>
-        <a href="#testing/training">Testing and Training</a></br>
+        <a href="#testing-and-training">Testing and Training</a></br>
         <a href="#key-results">Key Results</a></br></br>
         <ul>
           Source code:
@@ -53,7 +53,7 @@
 <p>To build our model, we tried both linear regression and nearest neighbor learning algorithms to test various combination of attributes.</p>
 
 <h2>
-<a name="testing/training" class="anchor" href="#testing/training"><span class="octicon octicon-link"></span></a>Testing and Training</h2>
+<a name="testing-and-training" class="anchor" href="#testing-and-training"><span class="octicon octicon-link"></span></a>Testing and Training</h2>
 
 <p>We pulled a total of 49,216 statuses from around 700 users. This set was then divided into a 5,000 status set for later testing, and two 22,108 status sets; one half for training our dictionary to generate message score and the other half to train the learner. We measured success for various combinations of attributes and learning algorithms by the correlation indicated by Weka and the root mean squared error (RMSE). Naturally, we aimed for high correlations and low RMSEs.</p>
 <h2>
