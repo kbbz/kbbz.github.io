@@ -419,3 +419,14 @@ footer {
     color:#444;
   }
 }
+
+
+#thumbs-up {
+  width: 150px;
+  height: 150px;
+  border: none;
+}
+
+#center-wrapper {
+  text-align: center;
+}
